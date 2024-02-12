@@ -32,7 +32,8 @@ fn main() {
         }
         to_test += 2;
     }
-    println!("{:?}", primes);
+    println!("{:?}", primes[0]);
+    println!("{:?}", &primes[(primes.len() - 1)..]);
 }
 
 // fn get_prime_count() -> i64 {

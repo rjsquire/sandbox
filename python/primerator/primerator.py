@@ -5,7 +5,7 @@ def is_prime(x):
     limit = int(x ** 0.5) + 1
     check = 2
     while check <= limit: 
-        if x % check == 0 or check > limit:
+        if x % check == 0:
             ret = False
             break
         else:
@@ -32,5 +32,6 @@ while prime_count > len(primes):
         primes.append(to_test)
     to_test += 2
 
-print(primes)
+print(primes[0])
+print(primes[prime_count - 1])
 
