@@ -1,6 +1,5 @@
 from sys import argv
 from utils.list import Dim
-from math import sqrt
 from collections.vector import DynamicVector
 
 fn is_prime(x: Int) -> Bool:
